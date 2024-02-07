@@ -10,6 +10,9 @@ public class X3 extends BMW {
 		
 		System.out.println("Model is " + model);
 		System.out.println("Brand is " + bmw.name);
+		
+		System.out.println("Behavior is ");
+		bmw.run();
 	}
 
 }

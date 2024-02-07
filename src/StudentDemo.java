@@ -4,10 +4,10 @@ public class StudentDemo {
 	String name;
 	String Standard;
 	
-	public StudentDemo(int i, String n, String s) {
-		rollNumber = i;
-		name = n;
-		Standard = s;
+	public StudentDemo(int rollNumber, String name, String Standard) {
+		this.rollNumber = rollNumber;
+		this.name = name;
+		this.Standard = Standard;
 	}
 	
 	public void display() {
@@ -15,8 +15,8 @@ public class StudentDemo {
 	}
 
 	public static void main(String[] args) {
-		StudentDemo stda = new StudentDemo(13, "Andrew", "Algebra");
-		StudentDemo stdb = new StudentDemo(14, "Jeff", "Geomet");
+		StudentDemo stda = new StudentDemo(13, "Andrew", "2nd");
+		StudentDemo stdb = new StudentDemo(14, "Jeff", "3rd");
 		stda.display();
 		stdb.display();
 	}

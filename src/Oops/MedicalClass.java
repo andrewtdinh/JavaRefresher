@@ -31,6 +31,19 @@ public class MedicalClass implements Student {
 		eng.getStandard();
 		eng.getStudentNumber();
 		eng.getUniversity();
+		
+		System.out.println("*********************************");
+		
+		med.displayName();
+		med.getStandard();
+		med.getStudentNumber();
+		med.getUniversity();
+	}
+
+
+	public void getInterfaceName() {
+		// TODO Auto-generated method stub
+		
 	}
 }
 

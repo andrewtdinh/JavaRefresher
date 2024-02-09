@@ -19,4 +19,9 @@ public class EngineeringClass implements Student {
 		System.out.println("University name is : " +Student.university);
 	}
 
+	public void getInterfaceName() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

@@ -6,8 +6,12 @@ public class Circle extends Shape {
 		System.out.println("Shape is Circle");
 	}
 	
-	public static void main() {
-		Shape s = new Circle();
+	public static void main(String[] args) {
+		Shape c = new Circle();
+		Shape t = new Triangle();
+		
+		c.displayShape();
+		t.displayShape();
 	}
 	
 }

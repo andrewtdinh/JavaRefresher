@@ -8,9 +8,9 @@ public class BMW extends Car {
 	
 	String name = "BMW ";
 	
-	public void setWheels() {
-		
-	}
+//	public void setWheels() {
+//		
+//	}
 	
 	public void getName() {
 		System.out.println(name);

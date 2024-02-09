@@ -1,5 +1,5 @@
 package Oops;
 
-public class FinalClass {
+public final class FinalClass {
 
 }

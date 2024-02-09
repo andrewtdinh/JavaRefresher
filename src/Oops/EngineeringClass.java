@@ -14,5 +14,9 @@ public class EngineeringClass implements Student {
 	public void getStandard() {
 		System.out.println("We are from Computer Science");
 	}
+	
+	public void getUniversity() {
+		System.out.println("University name is : " +Student.university);
+	}
 
 }

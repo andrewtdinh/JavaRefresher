@@ -19,8 +19,19 @@ public class MedicalClass implements Student {
 		
 	}
 	
-	
+	public void getUniversity() {
+		System.out.println("University name is London University");
+	}
 
+	public static void main(String[] args) {
+		EngineeringClass eng = new EngineeringClass();
+		MedicalClass med = new MedicalClass();
+		
+		eng.displayName();
+		eng.getStandard();
+		eng.getStudentNumber();
+		eng.getUniversity();
+	}
 }
 
 

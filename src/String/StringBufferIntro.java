@@ -12,7 +12,8 @@ public class StringBufferIntro {
 //		name1.append(" Dinh");
 //		name1.insert(4, "-Dinh");
 //		name1.replace(3, 6, "Dinh");
-		name1.delete(3, 10);
+//		name1.delete(3, 10);
+		name1.reverse();
 		
 		System.out.println(name1);
 	}

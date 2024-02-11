@@ -21,9 +21,15 @@ public class StringIntro {
 //		
 //		System.out.println(country.equals(country1));
 		
-		System.out.println(name == name1);
-		System.out.println(name == name2);
-		System.out.println(country == country1);
+//		System.out.println(name == name1);
+//		System.out.println(name == name2);
+//		System.out.println(country == country1);
+		
+		String finalString = name + name1 + name2;
+		System.out.println(finalString);
+		
+		
+		
 	}
 
 }

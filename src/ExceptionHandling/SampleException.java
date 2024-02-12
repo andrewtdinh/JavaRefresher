@@ -9,9 +9,14 @@ public class SampleException {
 
 			System.out.println(result);
 		} catch(Exception e) {
-			System.out.println("An error was thrown.");
+			System.out.println("Cannot divide by zero.");
+			
+			e.printStackTrace();
 		}
 		
+		String text = null;
+		
+		System.out.println(text.length());
 	}
 
 }

@@ -26,6 +26,7 @@ public class TreeSetDemo {
 		System.out.println("Head set to 389 (exclusive): " + ts.headSet(389));
 		System.out.println("Tail set from 389 (inclusive): " + ts.tailSet(389));
 		System.out.println("Sub set from 123 (inclusive) to 441 (exclusive): " + ts.subSet(123, 441));
+		System.out.println("Subset from 123 (inclusive) to 555 (not in set): " + ts.subSet(123, 555));
 		
 		ts.clear();
 		

@@ -18,4 +18,20 @@ public class SampleUtilTest {
 		assertEquals(null, SampleUtil.add(null, b));
 		assertEquals(null, SampleUtil.add(null, null));
 	}
+	
+	@Test
+	public void testAdd1() {
+		assertEquals(null, SampleUtil.add(15, null));
+	}
+	
+	@Test
+	public void testAdd2() {
+		assertEquals(null, SampleUtil.add(null, 15));
+	}
+	
+	@Test
+	public void testAdd3() {
+		assertEquals(null, SampleUtil.add(null, null));
+	}
+	
 }

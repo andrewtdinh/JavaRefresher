@@ -1,5 +1,21 @@
 package com.testing.sample;
 
-public class SampleUtilTest {
+import static org.junit.Assert.*;
 
+import org.junit.Test;
+
+public class SampleUtilTest {
+	
+	@Test
+	public void testAdd() {
+		System.out.println("add:");
+		Integer a = 15;
+		Integer b = 15;
+		Integer expResult = 30;
+		Integer result = SampleUtil.add(a, b);
+		assertEquals(expResult, result);
+		assertEquals(null, SampleUtil.add(a, null));
+		assertEquals(null, SampleUtil.add(null, b));
+		assertEquals(null, SampleUtil.add(null, null));
+	}
 }
